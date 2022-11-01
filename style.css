@@ -1,0 +1,26 @@
+div {
+    transition: background-color 300ms;
+}
+
+div:hover {
+    background-color: grey;
+}  
+
+button {
+    animation: float 2000ms 3 alternate-reverse;
+    transition: all 300ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes float {
+    0% {
+transformY(0)
+    }
+    100% {
+transform: translateY(10px)
+    }
+}
